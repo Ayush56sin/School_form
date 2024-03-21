@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: white;
+}
+th, td{
+    border: 1px solid #c9c9c9;
+    padding: 8px;
+    text-align: center;
+}
+th{
+    background-color: #dddddd;
+    font-weight: bold;
+}
+img{
+    max-width: 100px;
+    max-height: 100px;
+}
+a{
+    text-decoration: none;
+    color: #5c10ff;
+}
+
+.select{
+    display: flex;
+    margin: 0px 36px;
+    justify-content: center;
+}
+.select_box{
+    margin: 12px 60px 0px 60px; 
+    font-weight: bold;
+}
+select{
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    background-color: rgb(92, 19, 254);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 20%;
+    font-size: medium;
+    margin: 0px 40% 10px 40%;
+    
+}
+input[type="submit"]:hover{
+    background-color: #6837d2;
+}
+form{
+    box-shadow: rgba(42, 0, 132, 0.9) 0px 7px 29px 0px;
+    background-color: white;
+}
+.not_found{
+    text-align: center;
+    color: white;
+}
+@media screen and (max-width:650px) and (min-width:550px) {
+    body
+    {font-size: 15px;
+}
+}
+@media screen and (max-width:550px) and (min-width:500px) {
+    body
+    {font-size: 14px;
+}
+}
+@media screen and (max-width:500px) and (min-width:450px) {
+    body
+    {font-size: 13px;
+}
+}
+@media screen and (max-width:450px) and (min-width:400px) {
+    body
+    {font-size: 12px;
+}
+}
+@media screen and (max-width:400px){
+    body
+    {font-size: 11px;
+}
+}
+
+.custom-shape-divider-top-1673549831 {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -100;
+}
+
+.custom-shape-divider-top-1673549831 svg {
+    position: relative;
+    display: block;
+    width: calc(144% + 1.3px);
+    height: 226px;
+}
+
+.custom-shape-divider-top-1673549831 .shape-fill {
+    fill: #6328e3;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-top-1673549831 svg {
+        width: calc(152% + 1.3px);
+        height: 226px;
+    }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1673549831 svg {
+        width: calc(214% + 1.3px);
+        height: 200px;
+    }
+}
